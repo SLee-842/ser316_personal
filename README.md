@@ -4,8 +4,9 @@
 **ASURITE:** srlee16
 **Date:** 18 Oct 2025
 
-## Original branch structure
-Below is the branch structure as of the start of Task 2. Please also see **figure 1**.
+## Original Branch Structure
+Task 2 was made up of 6 branches (to include main). With the exception of the feature2 branch, all other branches stemmed directly from the main branch.
+The feature2 branch stemmed from the dev branch. Below is a breif depiction of the the branches and their respective commits. Please also see **figure 1**.
 
 - **main**	
 	- **Commit 1:** Initial Number guessing game
@@ -13,7 +14,7 @@ Below is the branch structure as of the start of Task 2. Please also see **figur
 	- **Branch:** main - Initial Number guessing game
 	- **Commit 1:** Add ability to quit game with negative number input
 	- **Commit 2:** Add play-again loop functionality
-	- **Commit 3:** Improve user feedback messages for guesses
+	- **Commit 3:** Improve user feedback messages for guess
 	- **Commit 4:** Add version comment documenting quit feature
 - dev 
 	- **Branch:** main - Initial Number guessing game
