@@ -2,9 +2,9 @@
 
 **Author:** Stephen Lee, ASU SER316 team
 **ASURITE:** srlee16
-**Date:** 18 Oct 2025
+**Date:** 20 Oct 2025
 
-## Original Branch Structure
+## Step 1
 Task 2 was made up of 6 branches (to include main). With the exception of the feature2 branch, all other branches stemmed directly from the main branch.
 The feature2 branch stemmed from the dev branch. Below is a breif depiction of the the branches and their respective commits. Please also see **figure 1**.
 
@@ -37,3 +37,13 @@ The feature2 branch stemmed from the dev branch. Below is a breif depiction of t
 ![Original branch structure](resources/OriginalBranchStructure_Task2.png)
 ***Figure 1.** Task 2 original branch structure*
 
+
+## Step 8
+
+Task 2 had us integrate branches feature1, feature2, and feature3 into the dev branch. Feature1 and feature3 were direct branches of main  
+while feature2 was a branched from dev. Features 1 and 2 both had meaningful commit comments while feature3 had many poor commit comments.
+
+To integrate these branched we used merge, rebase, squash, and cherry-pick. Merge combines changes amongst branches while maintining each branches individual history,
+this is good for teams settings where it's important to keep a projects full commit history. Rebase combines changes amongst branches but rewrites a branches commit history,
+this is good for personal or private projects when a linear history is preffered. Squash is used to combine individual commits rather than whole branches, 
+this is helpful when trying to clean and consolidate a branches commit history. Cherry-pick allows us to apply a specific commits to to a branch.
